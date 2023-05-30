@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{07AA0248-9CD5-4929-8913-326990CA598B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{07DDBF9C-D05F-4A84-94E7-6675C391B80A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{F2EB5FF8-7DA6-4D8B-961C-F9C5E5F2C6AC}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{69527B04-E76E-489B-930C-E8AA52BBE79B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{8547A2BD-1B37-4F99-B721-28D1F9EA6C2C}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{214C0E27-6A22-4156-8F9D-9DCA5C11CB94}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{397AD0BA-7D01-4CD5-8D42-A730D9A7D53A}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YagoMattos", "YagoMattos", "{F9E28CEA-C77B-4EF3-B094-D4EF989444BB}"
+	ProjectSection(SolutionItems) = preProject
+		YagoMattos.xml = YagoMattos.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{43B78CB5-5995-44E5-B664-C9BFA49E17B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YagoMattos_1", "YagoMattos_1\YagoMattos_1.csproj", "{F0040D6C-97CC-43D7-A3D2-3C25CB1A1DC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0040D6C-97CC-43D7-A3D2-3C25CB1A1DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0040D6C-97CC-43D7-A3D2-3C25CB1A1DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0040D6C-97CC-43D7-A3D2-3C25CB1A1DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0040D6C-97CC-43D7-A3D2-3C25CB1A1DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8547A2BD-1B37-4F99-B721-28D1F9EA6C2C} = {69527B04-E76E-489B-930C-E8AA52BBE79B}
+		{397AD0BA-7D01-4CD5-8D42-A730D9A7D53A} = {07AA0248-9CD5-4929-8913-326990CA598B}
+		{F9E28CEA-C77B-4EF3-B094-D4EF989444BB} = {07DDBF9C-D05F-4A84-94E7-6675C391B80A}
+		{43B78CB5-5995-44E5-B664-C9BFA49E17B8} = {F9E28CEA-C77B-4EF3-B094-D4EF989444BB}
+		{F0040D6C-97CC-43D7-A3D2-3C25CB1A1DC3} = {43B78CB5-5995-44E5-B664-C9BFA49E17B8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0DA3C7C-062F-4901-8657-5178D2231832}
+	EndGlobalSection
+EndGlobal
